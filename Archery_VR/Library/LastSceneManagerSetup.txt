@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/SteamVR/InteractionSystem/Samples/Interactions_Example.unity
+- path: Assets/Scenes/Archery.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
