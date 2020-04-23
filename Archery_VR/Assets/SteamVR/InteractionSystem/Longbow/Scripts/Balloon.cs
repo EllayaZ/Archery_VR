@@ -112,6 +112,7 @@ namespace Valve.VR.InteractionSystem
 		{
 			SpawnParticles( popPrefab, null );
 			Destroy( gameObject );
+            
 		}
 
 
