@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class ScoreTarget : MonoBehaviour
 {
-    public void OnDestroy()
+    private void OnCollisionEnter(Collision collision)
     {
-        FindObjectOfType<Scoring>().AddScore(2);
+        if (collision.gameObject.tag == "projectile")
+        {
+            FindObjectOfType<Scoring>().AddScore(2);
+        }
     }
 }

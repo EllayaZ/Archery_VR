@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Archery.unity
+- path: Assets/Scenes/K.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
